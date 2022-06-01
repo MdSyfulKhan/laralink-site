@@ -1,0 +1,16 @@
+.st_frame{
+  .st_box_frame{
+    background-color: $accent;
+    min-height: 200px;
+  }
+  .st_frame_text{
+    font-size: 42px;
+    color: #fff;
+    line-height: 120%;
+    padding: 30px;
+    span{
+      font-weight: 900;
+      text-decoration: underline;
+    }
+  }
+}

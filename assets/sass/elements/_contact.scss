@@ -1,0 +1,98 @@
+.st_site_contact {
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css");
+  .st_contact_upper_text {
+    margin-bottom: 53px;
+    h2 {
+      font-size: 42px;
+      line-height: 51px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      color: #656565;
+      line-height: 28px;
+    }
+  }
+  .st_icon_text {
+    h2 {
+      font-size: 26px;
+      line-height: 150%;
+      margin-bottom: 5px;
+    }
+    p {
+      line-height: 160%;
+      margin: 0;
+    }
+  }
+
+  //contact form
+  .st_full_width_right {
+    width: 50vw;
+    padding-right: 200px;
+    .st_contact_form {
+      background-color: #f6f6f6;
+      padding: 50px 64px;
+      .st_contact_heading {
+        text-align: center;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51px;
+        color: #444;
+        margin-bottom: 20px;
+      }
+
+      .st_single_input_field {
+        label,
+        input,
+        select,
+        textarea {
+          padding: 15px 13px;
+          font-size: 16px;
+          line-height: 20px;
+          width: 100%;
+          border: none;
+          color: #777777;
+        }
+        label {
+          margin-bottom: 5px;
+          padding: 0;
+          padding-left: 13px;
+        }
+        select {
+          appearance: none;
+          position: relative;
+          height: 100%;
+          width: 100%;
+        }
+        .st_select_box {
+          position: relative;
+          height: 100%;
+          width: 100%;
+          i {
+            position: absolute;
+            right: 17px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+      }
+      textarea {
+        height: 138px;
+        max-height: 300px;
+        border: 0.5px solid rgba(209, 209, 209, 0.3);
+      }
+    }
+  }
+  button {
+    background: $accent;
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 26px;
+    border: none;
+    margin-bottom: 13px;
+    width: 100%;
+  }
+  .st_condition_text {
+    text-align: center;
+  }
+}

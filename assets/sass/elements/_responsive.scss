@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1400px) {
+  .st_site_team {
+    .st_team_left_content {
+      padding-left: 50px;
+      padding-right: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .st_site_team {
+    .st_team_left_content {
+      padding-left: 25px;
+      padding-right: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  .st_gird_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .st_site_team {
+    background-color: rgba($accent, 0.05);
+    .st_team_left_content {
+      padding: 0;
+    }
+  }
+  .st_site_team{
+    .st_full_width_right{
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .st_gird_container {
+    grid-template-columns: 1fr;
+  }
+  .st_footer_content {
+    display: block;
+  }
+}
