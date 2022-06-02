@@ -1,20 +1,21 @@
-.st_service{
-  .st_single_service{
+.st_service {
+  .st_single_service {
     background-color: rgba(#d1d1d1, 0.2);
     display: block;
     height: 100%;
   }
-  .st_single_service_content{
+  .st_single_service_content {
     padding: 30px;
-    img{
+    img {
       margin-bottom: 17px;
     }
-    h2{
+    h2 {
       margin: 0;
-      font-size: 26px;
-      margin-bottom: 18px;
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 10px;
     }
-    p{
+    p {
       margin: 0;
       font-size: 16px;
     }
@@ -22,9 +23,9 @@
 }
 
 // layout
-.st_gird_container{
+.st_gird_container {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: dense;
 }
